@@ -1,8 +1,4 @@
-which
-there
-their
-about
-would
+word_list = ['which','there','their','about','would',
 these
 other
 words
