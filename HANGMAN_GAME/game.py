@@ -1,5 +1,5 @@
 import random
-word_list = ["insert", "your", "words", "in", "this", "python", "list"]
+word_list = ["insert", "your", "words", "in", "this", "python", "list",]
 
 def get_word(word_list):
     word = random.choice(word_list)
@@ -12,7 +12,7 @@ def play(word):
     guessed_letters = []
     guessed_words = []
     tries = 6
-    print("Let's play Hangman")
+    print("Welcome to Hangman game!")
     print(display_hangman(tries))
     print(word_completion)
     print("\n")
